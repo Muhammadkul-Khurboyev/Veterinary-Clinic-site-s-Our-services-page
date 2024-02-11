@@ -402,6 +402,8 @@ img {
   line-height: 20px;
 }
 .servis-item__btn {
+  display: inline-block;
+  text-decoration-line: none;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -414,10 +416,10 @@ img {
   font-size: var(--main-font-size);
   line-height: 20.51px;
 }
-.servis-item:nth-of-type(2n)  button {
+.servis-item:nth-of-type(2n)  a {
   background-color: #78c0de;
 }
-.servis-item:nth-of-type(2n+1)  button:hover {
+.servis-item:nth-of-type(2n+1)  a:hover {
   background-color: #000;
 }
 .site-footer {
